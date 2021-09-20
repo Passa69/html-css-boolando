@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* product */
@@ -25,4 +27,16 @@
     margin: 10px;
     height: 500px;
     object-fit: cover;
+}
+
+.description {
+    margin: 0px 10px 30px 10px;
+}
+
+.discountnumber {
+    color: red;
+}
+
+.oldnumber {
+    text-decoration: line-through;
 }
