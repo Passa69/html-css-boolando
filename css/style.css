@@ -27,8 +27,10 @@
     margin: 10px;
     height: 500px;
     object-fit: cover;
+    position: relative;
 }
 
+/* product description */
 .description {
     margin: 0px 10px 30px 10px;
 }
@@ -39,4 +41,32 @@
 
 .oldnumber {
     text-decoration: line-through;
+}
+
+/* discount, favorite */
+.discount {
+    position: absolute;
+    left: 165px;
+    bottom: 250px;
+}
+
+.number {
+    background-color: red;
+    color: white;
+    padding: 1px 1px;
+}
+
+.sostenibility {
+    background-color: green;
+    color: white;
+    padding: 1px 2px;
+}
+
+.hearts {
+    position: absolute;
+    left: 481px;
+    top: 25px;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: white;
 }
