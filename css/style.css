@@ -40,6 +40,10 @@
     display: none;
 }
 
+.firstimg {
+    display: block;
+}
+
 /* product description */
 .description {
     margin: 0px 10px 30px 10px;
