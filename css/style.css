@@ -33,6 +33,10 @@
     object-fit: cover;
 }
 
+.secondimg {
+    display: none;
+}
+
 /* product description */
 .description {
     margin: 0px 10px 30px 10px;
@@ -72,4 +76,13 @@
     font-size: 20px;
     padding: 5px 10px;
     background-color: white;
+}
+
+/* hover */
+.product:hover .firstimg {
+    display: none;
+}
+
+.product:hover .secondimg {
+    display: block;
 }
