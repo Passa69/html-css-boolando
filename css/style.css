@@ -15,7 +15,7 @@
 }
 
 .clearfix {
-    width: 80%;
+    width: 75%;
     margin: 10px auto;
 }
 
@@ -23,11 +23,14 @@
     float: left;
 }
 
+.product-image {
+    position: relative;
+}
+
 .product img {
     margin: 10px;
     height: 500px;
     object-fit: cover;
-    position: relative;
 }
 
 /* product description */
@@ -46,8 +49,8 @@
 /* discount, favorite */
 .discount {
     position: absolute;
-    left: 165px;
-    bottom: 250px;
+    left: 10px;
+    bottom: 50px;
 }
 
 .number {
@@ -64,7 +67,7 @@
 
 .hearts {
     position: absolute;
-    left: 481px;
+    right: 10px;
     top: 25px;
     font-size: 20px;
     padding: 5px 10px;
